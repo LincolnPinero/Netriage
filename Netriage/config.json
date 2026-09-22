@@ -1,0 +1,10 @@
+{
+    "self": "192.168.1.1",
+    "host": "8.8.8.8",
+    "domain": "google.com",
+    "port": 80,
+    "critical_ports": {
+        "google.com":[80, 443],
+        "github.com": [80, 443]
+    }
+}
